@@ -59,11 +59,12 @@ body{
   background: black;
   margin-top:20px;
   border-radius: 20px;
-  color:white;
+  color:lightgrey;
   padding: 8px;
   align-items: center;
   overflow:scroll;
   line-break: none;
+  font-family:monospace;
 }
 
 
