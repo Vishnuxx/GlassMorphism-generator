@@ -1,0 +1,43 @@
+/*-----------------------------------------------*/
+/*-EXTRA WIDTH SOLVE HACK( Not a good practise)-*/
+/*----------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+  only screen and (-o-min-device-pixel-ratio: 3/2),
+  only screen and (min--moz-device-pixel-ratio: 1.5),
+  only screen and (min-device-pixel-ratio: 1.5) {
+  html,
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px) {
+    html,
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        width:100%;
+        height:120vh;
+    }
+  .container {
+    width: 90%;
+  }
+  .info {
+    left: 90%;
+  }
+  .code {
+    width: 95%;
+  }
+  .code-piece {
+    font-size: 0.8rem;
+    width: 100%;
+  }
+  .input-section {
+    width: 90%;
+  }
+  .slider {
+    width: 20rem;
+  }
+}
