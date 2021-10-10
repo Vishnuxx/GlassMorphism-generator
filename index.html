@@ -1,35 +1,139 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Glassmorphism Plugin by IdeoLogics</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./query.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="/favicon/android-chrome-512x512.png"
+    />
+    <link rel="shortcut icon" href="/favicon/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Code:wght@300;400;500&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="./style.css">
-</head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="preview" id="preview">
+          <div class="glass" id="glass"></div>
+        </div>
 
-<body>
-  <div class="preview" id="preview">
-    <div class="glass" id=glass>
-    </div>
-  </div>
-  <div class="controlbar">
-    <div class="controls">
-      <h1>Glass Morophism</h1>
-      <div>
-        <h4 id="blur">Blur: </h4>
-        <input id="blur_ctrl" class="slider" type=range min="0" max="100">
-      </div>
-      <div>
-        <h4 id="transparency">Transparancy: </h4>
-        <input id="transp_ctrl" class="slider" type=range>
-      </div>
-     
-      <div class="code" id="code">
-      </div>
-    </div>
-  </div>
-  <script src="./main.js"></script>
-</body>
+        <div class="information" id="information-msg">
+          <p class="info-message">
+            Glass Morphism plugin is a tool for making glassmorphism effect
+            easy. Adjust the control to get desired result and copy code.<br />Happy
+            Coding!
+          </p>
+        </div>
+        <!-- <div class="controlbar"> -->
+          <div class="controls">
+            <h1>Glass Morophism</h1>
+            <ion-icon
+              name="information-circle-outline"
+              class="info"
+              id="info"
+            ></ion-icon>
 
+            <div class="input-section">
+              <h4 id="blur">Blur:</h4>
+              <input
+                id="blur_ctrl"
+                class="slider"
+                type="range"
+                min="0"
+                max="100"
+              />
+            </div>
+            <div class="input-section">
+              <h4 id="transparency">Transparancy:</h4>
+              <input id="transp_ctrl" class="slider" type="range" />
+            </div>
+            <div name="code" id="code" class="code">
+              <div class="code-piece" id="code-piece">
+                <div class="code-property" id="code-property1"></div>
+                <div class="code-values" id="code-values1"></div>
+              </div>
+              <div class="code-piece" id="code-piece">
+                <div class="code-property" id="code-property2"></div>
+                <div class="code-values" id="code-values2"></div>
+              </div>
+              <div class="code-piece" id="code-piece">
+                <div class="code-property" id="code-property3"></div>
+                <div class="code-values" id="code-values3"></div>
+              </div>
+            </div>
+            <textarea
+              name="copy-code"
+              id="copy-code"
+              class="copy-code"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <div class="copied-message display" id="copied-message">
+              <p>Code Copied successfully !</p>
+            </div>
+            <button class="copy-btn-disable" id="button">
+              <ion-icon name="copy-outline" class="copy-icon"></ion-icon>Copy
+            </button>
+          </div>
+        <!-- </div> -->
+      </div>
+    </header>
+    <footer>
+      <div class="footer-element">
+        <p class="credits">
+          Created by <strong>IdeoLogics</strong> with
+          <ion-icon name="heart" class="heart-icon"></ion-icon>
+        </p>
+        <div class="social-icon">
+          <a href="#"
+            ><ion-icon name="logo-instagram" class="insta"></ion-icon
+          ></a>
+          <a href="#"><p class="insta-handle">ideologics_</p></a>
+        </div>
+      </div>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
 </html>
