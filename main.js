@@ -54,7 +54,7 @@ function getCssText() {
   return `background: rgba(255, 255, 255, ${obj.transparency});\n\nbackdrop-filter: blur(${obj.blur}); \n\n-webkit-backdrop-filter: blur(${obj.blur});`;
 }
 function codeProperty1() {
-  return `backround:`;
+  return `background:`;
 }
 function codeValues1() {
   return `rgba(255, 255, 255, ${obj.transparency});`;
