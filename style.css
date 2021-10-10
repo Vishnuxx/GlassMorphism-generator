@@ -183,6 +183,14 @@ code:focus{
   text-align: left;
   height: 100px;
   width: 90%;
+  margin-top:20px;
+  border-radius: 20px;
+  color:lightgrey;
+  padding: 8px;
+  align-items: center;
+  overflow:scroll;
+  line-break: none;
+  font-family:monospace;
 }
 .code-property{
   text-align: left;
