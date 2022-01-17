@@ -1,5 +1,5 @@
 # GlassMorphism-generator
-demo: https://vishnuxx.github.io/GlassMorphism-generator/
+demo: <a href="https://vishnuxx.github.io/GlassMorphism-generator/">See Demo </a>
 
 A simple generator plugin for glassmorphism UI effect!
 
