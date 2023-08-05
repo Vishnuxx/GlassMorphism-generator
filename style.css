@@ -23,7 +23,7 @@ header {
   align-items: center;
   height: 100vh;
   width: 100%;
-  background: white; /*linear-gradient(to bottom right,#01062a,#004e92)*/
+  background: linear-gradient(to bottom right,#454aff,#e900ff); /*linear-gradient(to bottom right,#01062a,#004e92)*/
 }
 /*---------------------*/
 /*-----HEADING--------*/
