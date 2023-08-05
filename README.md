@@ -3,5 +3,5 @@ demo: <a href="https://vishnuxx.github.io/GlassMorphism-generator/">Click here <
 
 A simple generator plugin for glassmorphism UI effect!
 
-<img width="1440" alt="Screenshot 2021-10-19 at 5 58 17 PM" src="https://user-images.githubusercontent.com/74808440/137909825-86ae7868-867f-49fc-9e40-105253c6a69d.png">
-<img width="1440" alt="Screenshot 2021-10-19 at 5 58 33 PM" src="https://user-images.githubusercontent.com/74808440/137909926-e18aa5a3-7f8a-4238-9507-e562c713edd7.png">
+<img width="1680" alt="Screenshot 2023-08-05 at 9 37 43 PM" src="https://github.com/Vishnuxx/GlassMorphism-generator/assets/74808440/99156750-6e25-446c-8b40-a80ad96dde33">
+
